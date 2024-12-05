@@ -5,6 +5,6 @@
 from typing import List, Union
 
 
-def sum_mixed_list(mxd_lst: List[Union[list, float]]) -> float:
+def sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float:
     """function takes mixed types as arguments"""
     return (sum(mxd_lst))
