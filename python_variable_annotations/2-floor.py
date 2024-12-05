@@ -4,6 +4,7 @@
 
 import math
 
+
 def floor(n: float) -> int:
     """Function make float as argument"""
 
