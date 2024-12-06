@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-""" Module that takes an integer n and an integer max_delay as arguments"""
+"""shebang script"""
+
 
 import asyncio
 from typing import List
