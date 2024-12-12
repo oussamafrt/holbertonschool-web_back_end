@@ -38,5 +38,7 @@ class Server:
         start_index, end_index = index_range(page, page_size)
         dataset = self.dataset()
 
-        return dataset[start_index:end_index] if start_index < len(dataset) \
-              else []
+        if start_index >= len(dataset):
+            return []
+
+        return dataset[start_index:end_index]
