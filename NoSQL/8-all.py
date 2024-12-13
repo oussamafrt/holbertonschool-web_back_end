@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" List all documents in Python """
+"""Shebang script"""
 
 from pymongo import MongoClient
 
